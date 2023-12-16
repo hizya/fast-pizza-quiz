@@ -6,10 +6,11 @@ import Order from './features/order/Order';
 import Cart from './features/cart/Cart';
 import CreateOrder from './features/order/Order';
 import AppLayout from './ui/AppLayout';
-
+import Error from './ui/Error';
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
+    errorElement: <Error />,
     children: [
       {
         path: '/',
