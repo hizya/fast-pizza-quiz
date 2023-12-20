@@ -9,7 +9,7 @@ function AppLayout() {
   const isLoading = navigation.state === 'loading';
 
   return (
-    <div className="layout">
+    <div className="bg-stone-200">
       {isLoading && <Loader />}
       <Header />
 

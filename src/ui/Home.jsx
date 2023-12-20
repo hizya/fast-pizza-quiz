@@ -1,13 +1,16 @@
 function Home() {
   return (
-    <div className="text-xl font-semibold text-yellow-500">
-      <h1>
+    <div>
+      <h1 className="text-center text-xl font-semibold text-stone-700">
         The best pizza.
         <br />
-        Straight out of the oven, straight to you.
+        <span className="text-yellow-500">
+          Straight out of the oven, straight to you.
+        </span>
       </h1>
     </div>
   );
 }
 
 export default Home;
+// #818cf8
