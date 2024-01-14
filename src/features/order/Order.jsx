@@ -47,8 +47,8 @@ function Order() {
         </div>
       </div>
 
-      <div className='flex bg-stone-200 px-2 py-4 items-center justify-around flex-wrap'>
-        <p className=' font-semibold'>
+      <div className='flex bg-stone-200 px-2 py-4 items-center justify-around flex-wrap xs:justify-between xs:px-4'>
+        <p className='font-semibold'>
           {deliveryIn >= 0
             ? `Only ${calcMinutesLeft(estimatedDelivery)} minutes left 😃`
             : 'Order should have arrived'}
